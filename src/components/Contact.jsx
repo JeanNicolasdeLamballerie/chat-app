@@ -2,7 +2,7 @@
 import React from 'react';
 import './Contact.css';
 
-function Contact({ name, avatar, online }) {
+function Contact({name, avatar, online}) {
   return (
     <div className="Contact">
       <img src={avatar} className='avatar' />
