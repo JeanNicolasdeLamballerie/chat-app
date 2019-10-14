@@ -7,10 +7,10 @@ function App() {
 
   return (
   
-    <>
-      {contactList.map(x => Contact(x))}
 
-    </>
+      contactList.map(x => <Contact name={x.name} avatar={x.avatar} online={x.online}/>)
+
+
   );
 }
 
